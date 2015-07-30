@@ -9,6 +9,8 @@
           sdb_host="sdb.amazonaws.com"::string(),
           elb_host="elasticloadbalancing.amazonaws.com"::string(),
           ses_host="email.us-east-1.amazonaws.com"::string(),
+          et_host="elastictranscoder.us-east-1.amazonaws.com"::string(),
+          et_port=443::non_neg_integer(),
           sqs_host="queue.amazonaws.com"::string(),
           sqs_protocol=undefined::string()|undefined,
           sqs_port=undefined::non_neg_integer()|undefined,
